@@ -95,22 +95,10 @@ const Navbar: React.FC = () => {
                         </NavigationMenuList>
                     </NavigationMenu>
                 </div>
-                <div className="space-x-4 flex items-center">
-                    <Button variant="outline">Login</Button>
-{/*                    <Avatar>
-                        <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-                        <Skeleton className="h-12 w-12 rounded-full" />
-                    </Avatar>*/}
-                </div>
 
-{/*                 Theme Mode Toggle
                 <div className="flex items-center space-x-4">
                     <div className="space-x-4 flex items-center">
-                        <Button variant="ghost">Login</Button>
-                        <Avatar>
-                            <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-                            <Skeleton className="h-12 w-12 rounded-full" />
-                        </Avatar>
+                        <Button variant="outline">Login</Button>
                     </div>
                     <DropdownMenu>
                         <DropdownMenuTrigger asChild>
@@ -132,7 +120,7 @@ const Navbar: React.FC = () => {
                             </DropdownMenuItem>
                         </DropdownMenuContent>
                     </DropdownMenu>
-                </div>*/}
+                </div>
 
                 {/* Hamburger Menu for smaller screens */}
                 <div className="md:hidden">
