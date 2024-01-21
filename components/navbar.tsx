@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo */}
                 <Link href="/" legacyBehavior>
-                    <a className="text-white text-xl font-bold mr-[-65vh]">CnCloud</a>
+                    <a className="text-primary text-xl font-bold mr-[-65vh]">CnCloud</a>
                 </Link>
 
                 {/* Navigation Links */}
@@ -86,9 +86,9 @@ const Navbar: React.FC = () => {
                                 </NavigationMenuContent>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <Link href="/docs" legacyBehavior passHref>
+                                <Link href="/pricing" legacyBehavior passHref>
                                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                        Documentation
+                                        Pricing
                                     </NavigationMenuLink>
                                 </Link>
                             </NavigationMenuItem>
